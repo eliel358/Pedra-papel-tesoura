@@ -1,0 +1,48 @@
+nav{
+    text-align: center;
+    font-size: 4em;
+    padding: 0.1em;
+    border: 1px solid black;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    gap: 5em;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+button{
+    font-size: 2em;
+    background-color: white;
+    font-family: monospace;
+    border: 1px solid;
+    width: 100%;
+}
+.botoes{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+.placar{
+    font-size: 5em;
+    border: 1px solid black;
+    padding: 0.5em;
+    width: 5em;
+    text-align: center;
+}
+body{
+    font-family: monospace;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+
+
+
+
+/* #940066 */
