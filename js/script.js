@@ -20,7 +20,7 @@ function play(choice){
         }
         if(choice == 2){
             if(cpu_choice == 3){
-                document.getElementById('placar').innerHTML = 'Derrota\n:('
+                document.getElementById('placar').innerHTML = 'Derrota\<br>:('
             }
             if(cpu_choice == 1){
                 document.getElementById('placar').innerHTML = 'Vitoria!!'
@@ -28,7 +28,7 @@ function play(choice){
         }
         if(choice == 3){
             if(cpu_choice == 1){
-                document.getElementById('placar').innerHTML = 'Derrota\n:('
+                document.getElementById('placar').innerHTML = 'Derrota\<br>:('
             }
             if(cpu_choice == 2){
                 document.getElementById('placar').innerHTML = 'Vitoria!!'
