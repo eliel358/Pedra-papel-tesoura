@@ -4,7 +4,6 @@
 
 function play(choice){
     cpu_choice = Math.floor(Math.random()*3) +1;
-    console.log(cpu_choice)
     if (cpu_choice == 1){
         document.getElementById('cpu').innerHTML = 'Jogada da cpu: Pedra'
     }
@@ -23,7 +22,7 @@ function play(choice){
 
             }
             if(cpu_choice == 3){
-                document.getElementById('placar').innerHTML = 'Vitoria!!'
+                document.getElementById('placar').innerHTML = 'Vitória\<br>:)'
             }
         }
         if(choice == 2){
@@ -31,7 +30,7 @@ function play(choice){
                 document.getElementById('placar').innerHTML = 'Derrota\<br>:('
             }
             if(cpu_choice == 1){
-                document.getElementById('placar').innerHTML = 'Vitoria!!'
+                document.getElementById('placar').innerHTML = 'Vitória\<br>:)'
             }
         }
         if(choice == 3){
@@ -39,10 +38,9 @@ function play(choice){
                 document.getElementById('placar').innerHTML = 'Derrota\<br>:('
             }
             if(cpu_choice == 2){
-                document.getElementById('placar').innerHTML = 'Vitoria!!'
+                document.getElementById('placar').innerHTML = 'Vitória\<br>:)'
             }
         }
     }
 
 }
-play(1)
