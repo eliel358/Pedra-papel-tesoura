@@ -5,7 +5,15 @@
 function play(choice){
     cpu_choice = Math.floor(Math.random()*3) +1;
     console.log(cpu_choice)
-    
+    if (cpu_choice == 1){
+        document.getElementById('cpu').innerHTML = 'Jogada da cpu: Pedra'
+    }
+    if (cpu_choice == 2){
+        document.getElementById('cpu').innerHTML = 'Jogada da cpu: Papel'
+    }
+    if (cpu_choice == 3){
+        document.getElementById('cpu').innerHTML = 'Jogada da cpu: Tesoura'
+    }
     if(choice == cpu_choice){
         document.getElementById('placar').innerHTML = 'Empate\n._.'
     }else{
@@ -37,3 +45,4 @@ function play(choice){
     }
 
 }
+play(1)

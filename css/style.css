@@ -41,7 +41,12 @@ body{
 html{
     height: 100%;
 }
-
+.cpu{
+    font-size: 2em;
+    width: 100%;
+    text-align: start;
+    display: flex;
+}
 
 
 
