@@ -2,7 +2,11 @@
 // 2 = papel
 // 3 = tesoura
 
+if(document.getElementById('placar').innerHTML == ""){
+    document.getElementById('placar').className = '.hidden'
+}
 function play(choice){
+    document.getElementById('placar').className = 'placar'
     cpu_choice = Math.floor(Math.random()*3) +1;
     if (cpu_choice == 1){
         document.getElementById('cpu').innerHTML = 'Jogada da cpu: Pedra'
